@@ -26,12 +26,10 @@ Beginner-friendly project structure
 
 HTML5
 
-
 CSS3
 
 
-JavaScript
 
 
 📂 Project Structure
-businness-card/│── index.html│── style.css│── script.js│── images
+businness-card/│── index.html│── style.css│
