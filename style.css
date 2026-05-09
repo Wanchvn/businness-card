@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.business-card {
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.business-card > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #667eea;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.details p {
+  margin: 0 0 8px 0;
+  font-weight: 400;
+}
+
+.details .title {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
